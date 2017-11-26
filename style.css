@@ -15,12 +15,21 @@ body {
     margin: 0 auto;
 }
 
+ul {
+    list-style: none;
+}
+
+ul a {
+    text-decoration: none;
+}
+
 .page-header {
     padding: 35px 0;
     border-bottom: 10px solid #f0f0f0;
 }
 
-.page-header .positioner {
+.page-header .positioner,
+.page-footer .positioner {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,18 +41,12 @@ body {
     align-items: center;
 }
 
-.page-header a {
-    text-decoration: none;
-}
-
 .page-header .logo p {
-    font-family: Roboto Regular;
     font-size: 12px;
 }
 
 .page-header .menu  ul {
     display: flex;
-    list-style: none;
 }
 
 .page-header .menu  ul li {
@@ -64,6 +67,33 @@ body {
     color: #00acee;
 }
 
+.about-company {
+    margin: 20px 0;
+}
+
+.about-company p {
+    margin: 20px 0;
+}
+
+.about-company img {
+    float: left;
+    width: 40%;
+    border: 10px solid transparent;
+    box-shadow: 0 0 10px 0 #d4d4d4;
+    margin: 25px 40px 25px 0;
+    overflow: hidden;
+}
+
+.about-company h2 {
+    font-family: "Roboto Medium";
+    font-size: 22px;
+    color: #00acee;
+}
+
+.page-footer {
+    background: #f0f0f0;
+    padding: 70px 0;
+}
 
 
 
