@@ -1,3 +1,10 @@
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto/Robotomedium.ttf),
+         url(fonts/Roboto/Robotolight.ttf),
+         url(fonts/Roboto/RobotoRegular.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -85,7 +92,6 @@ ul a {
 }
 
 .about-company h2 {
-    font-family: "Roboto Medium";
     font-size: 22px;
     color: #00acee;
 }
