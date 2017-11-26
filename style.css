@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto Light", sans-serif;
+    font-size: 17px;
+    color: #676767;
+}
+
+.positioner {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.page-header {
+    padding: 35px 0;
+    border-bottom: 10px solid #f0f0f0;
+}
+
+.page-header .positioner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page-header .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page-header a {
+    text-decoration: none;
+}
+
+.page-header .logo p {
+    font-family: Roboto Regular;
+    font-size: 12px;
+}
+
+.page-header .menu  ul {
+    display: flex;
+    list-style: none;
+}
+
+.page-header .menu  ul li {
+    padding: 0 10px;
+}
+
+.page-header .contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.page-header .contacts .phone {
+    font-size: 30px;
+}
+.page-header .contacts span,
+.page-header .contacts a {
+    color: #00acee;
+}
+
+
+
+
+
+
+
+
+
