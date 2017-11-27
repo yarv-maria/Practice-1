@@ -2,8 +2,9 @@
     font-family: Roboto;
     src: url(fonts/Roboto/Robotomedium.ttf),
          url(fonts/Roboto/Robotolight.ttf),
-         url(fonts/Roboto/RobotoRegular.ttf),
-         url(fonts/Roboto/RobotoBold.ttf);
+         url(fonts/Roboto/Robotoregular.ttf),
+         url(fonts/Roboto/Robotobold.ttf),
+         url(fonts/UniSansHeavyCAPS.otf);
 }
 
 * {
@@ -67,10 +68,16 @@ ul {
 .page-header .menu  ul li {
     padding: 0 10px;
     font-size: 15px;
+    font-family: 'Roboto Medium', sans-serif;
 }
 
 .phone {
     font-size: 30px;
+}
+
+.page-header .contacts .callback {
+    display: flex;
+    align-items: center;
 }
 
 .page-header .contacts .callback img {
@@ -83,10 +90,7 @@ span,
     color: #00acee;
 }
 
-.about-company {
-    margin: 20px 0;
-}
-
+.about-company,
 .about-company p {
     margin: 20px 0;
 }
@@ -106,12 +110,23 @@ span,
 
 .about-company h2 {
     font-size: 22px;
+    font-family: 'Roboto Medium', sans-serif;
     color: #00acee;
+}
+
+.about-company ul li {
+    font-size: 15px;
 }
 
 .page-footer {
     background: #f0f0f0;
     padding: 70px 0;
+}
+
+.page-footer .about,
+.page-footer .contacts {
+    display: flex;
+    flex-direction: column;
 }
 
 .page-footer .about .container {
@@ -125,6 +140,7 @@ span,
 
 .page-footer .about .container .copyright {
     font-size: 15px;
+    font-family: "Roboto Black", sans-serif;
 }
 
 .page-footer .about .info {
@@ -147,10 +163,11 @@ span,
 }
 
 .page-footer .contacts .made-in {
-    font-size: 20px;
+    font-family: 'UniSansHeavyCAPS', sans-serif;
+    font-size: 15px;
+    color: #c0cacd;
     text-align: right;
 }
-
 
 
 
