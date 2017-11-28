@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <title>О компании</title>
@@ -8,41 +8,44 @@
 
 <body>
 
-    <header class = 'page-header'>
+ <div class = "wrapper">
+
+    <header role = 'banner'>
         <div class = 'positioner'>
 
-            <div class = 'logo'>
-                <a href = ''>
-                    <img src = 'images/logo.png'  alt = 'logo'>
+            <div class = 'header-logo'>
+                <a href = '#'>
+                    <img src = 'images/logo.png'  alt = 'Главная страница'>
                 </a>
                 <p> Корпоративный консалтинг </p>
             </div>
 
-            <nav class = 'menu'>
+            <nav class = 'header-menu'>
                 <ul>
-                    <li> <a href = ''> О компании </a> </li>
-                    <li> <a href = ''> Контакты </a> </li>
-                    <li> <a href = ''> Юридическим лицам </a> </li>
+                    <li> <a href = '#'> О компании </a> </li>
+                    <li> <a href = '#'> Контакты </a> </li>
+                    <li> <a href = '#'> Юридическим лицам </a> </li>
                 </ul>
             </nav>
 
-            <div class = 'contacts'>
-                <div class = 'phone'><span> +7 (812) </span> 339-45-27 </div>
-                <div class = 'callback'>
+            <div class = 'header-contacts'>
+                <a class = 'contacts-phone' href = "tel:+7812394527" > <span> +7 (812) </span> 339-45-27  </a>
+                <div class = 'contacts-callback'>
                     <img src = 'images/phone.png'  alt = 'phone'>
-                    <a href = ''> Обратный звонок </a>
+                    <a href = '#'> Обратный звонок </a>
                 </div>
             </div>
 
         </div>
     </header>
 
+
     <article class = 'about-company'>
         <div class = 'positioner'>
 
             <h1> О компании </h1>
 
-            <p> Сменим юридическое лицо в срок до 7 дней. Выполним за вас заполнение всех <a href = ''> необходимых документов </a>.
+            <p> Сменим юридическое лицо в срок до 7 дней. Выполним за вас заполнение всех <a href = '#'> необходимых документов </a>.
                 Подача документов и выезд к клиенту бесплатно! Поможем грамотно осуществить смену участников Общества.
                 Выполним за вас заполнение всех необходимых документов. Подача документов и выезд к клиенту бесплатно!
                 Сменим юридическое лицо в срок до 7 дней. Выполним за вас заполнение всех необходимых документов.
@@ -82,7 +85,7 @@
                 выезд к клиенту бесплатно! Поможем грамотно осуществить смену участников Общества. Выполним за
                 вас заполнение всех необходимых документов. Подача документов и выезд к клиенту бесплатно! </p>
 
-            <ul>
+            <ul class = 'list'>
                 <li> Сменим юридическое лицо в срок до 7 дней </li>
                 <li> Выполним за вас заполнение всех необходимых документов </li>
                 <li> Подача документов и выезд к клиенту бесплатно </li>
@@ -100,42 +103,45 @@
         </div>
     </article>
 
-    <footer class = page-footer>
+
+    <footer>
         <div class = 'positioner'>
 
-             <div class = 'about'>
-                 <div class = 'container'>
+             <div class = 'footer-about'>
+                 <div class = 'footer-about-container'>
                      <img src = 'images/logo-footer.png' alt = 'img-footer'>
                      <div class = 'copyright'>
                          <p> 2017. Консалтинговая компания ООО перспектива </p>
                          <p> Все права защищены </p>
                      </div>
                  </div>
-                 <div class = 'info'>
+                 <div class = 'footer-about-info'>
                      <p> г.Санкт-Петербург, пр.Шаумяна д. 49, лит. А oфис 110 </p>
                      <p> Понедельник — пятница, с 9:30 до 18:00, субота и воскресенье — выходные дни </p>
                  </div>
                  <a href = 'mailto:info@perspectiva-spb.ru'> info@perspectiva-spb.ru </a>
              </div>
 
-            <div class = 'contacts'>
-                <div class = 'phone'><span> +7 (812) </span> 339-45-27 </div>
-                <nav class = 'menu'>
+            <div class = 'footer-contacts'>
+                <a class = 'contacts-phone' href = "tel:+7812394527" > <span> +7 (812) </span> 339-45-27  </a>
+                <nav class = 'footer-menu'>
                     <ul>
-                        <li> <a href = ''> О компании </a> </li>
-                        <li> <a href = ''> Контакты </a> </li>
-                        <li> <a href = ''> Физическим лицам </a> </li>
-                        <li> <a href = ''> Юридическим лицам </a> </li>
+                        <li> <a href = '#'> О компании </a> </li>
+                        <li> <a href = '#'> Контакты </a> </li>
+                        <li> <a href = '#'> Физическим лицам </a> </li>
+                        <li> <a href = '#'> Юридическим лицам </a> </li>
                     </ul>
                 </nav>
-                <div class = 'made-in'>
-                    <p> MADE IN </p>
+                <div class = 'footer-made-in'>
+                    <p> Made in </p>
                     <img src = "images/promologia.png" alt = 'promologia'>
                 </div>
             </div>
 
         </div>
      </footer>
+
+ </div>
 
 </body>
 </html>
