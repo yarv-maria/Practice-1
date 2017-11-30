@@ -175,7 +175,10 @@ a.contacts-phone:hover {
     background: #00acee;
 
 }
-
+.about-company a:hover {
+    color: #0b456d;
+    text-decoration: none;
+}
 /*--------------------FOOTER-------------------*/
 footer {
     background: #f0f0f0;
@@ -232,7 +235,7 @@ footer .contacts-phone {
 }
 
 .footer-about a:hover {
-    font-size: 18px;
+    color: #0b456d;
 }
 
 .footer-menu a:hover {
