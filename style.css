@@ -15,8 +15,6 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    min-height: 100vh;
-
 }
 
 .positioner {
@@ -175,6 +173,7 @@ a.contacts-phone:hover {
     background: #00acee;
 
 }
+
 .about-company a:hover {
     color: #0b456d;
     text-decoration: none;
