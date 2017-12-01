@@ -132,13 +132,17 @@ a.contacts-phone:hover {
     color: #00acee;
 }
 
-.about-company img {
+.about-company .image-wrapper {
     float: left;
     width: 40%;
+    margin: 10px 35px 10px 0;
     border: 10px solid transparent;
-    box-shadow: 0 0 10px 0 #d4d4d4;
-    margin: 10px 40px 10px 0;
-    overflow: hidden;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .3);
+}
+
+.about-company .image-wrapper img {
+    width: 100%;
+    height: auto;
 }
 
 .about-company h2 {
