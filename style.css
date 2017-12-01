@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
 
-/*--------------------ОБЩИЕ-------------------*/
+/*--------------------GENERAL-------------------*/
 * {
     margin: 0;
     padding: 0;
@@ -15,6 +15,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    min-height: 100vh;
 }
 
 .positioner {
@@ -26,7 +27,7 @@ ul {
     list-style: none;
 }
 
-/*--------------------HEADER + FOOTER-------------------*/
+/*--------------------HEADER-------------------*/
 header[role = 'banner'] {
     padding: 35px 0;
     border-bottom: 10px solid #f0f0f0;
@@ -51,17 +52,15 @@ a.contacts-phone {
     align-items: center;
 }
 
-.header-logo p {
+.header-logo-text {
     font-size: 12px;
-}
-
-.header-menu ul,
-.footer-menu ul {
-    display: flex;
+    color: black;
 }
 
 .header-menu ul li,
 .footer-menu ul li {
+    display: inline-block;
+    vertical-align: middle;
     padding: 0 10px;
     font-size: 15px;
     font-weight: 400;
@@ -85,20 +84,15 @@ a.contacts-phone,
     font-size: 30px;
 }
 
-.contacts-callback {
-    display: flex;
-    align-items: center;
-}
-
 .contacts-callback img {
     margin: 0 10px 0 0;
+    display: inline-block;
 }
 
-.contacts-callback a {
+.contacts-callback span {
     font-size: 16px;
     color: #00a5ec;
     text-transform: uppercase;
-
 }
 
 span,
@@ -114,7 +108,7 @@ a.contacts-phone:hover {
     color: #00a5ec;
 }
 
-.contacts-callback a:hover {
+.contacts-callback span:hover {
     color: #000000;
 }
 
@@ -180,9 +174,13 @@ a.contacts-phone:hover {
     text-decoration: none;
 }
 /*--------------------FOOTER-------------------*/
-footer {
+footer[role = 'contentinfo'] {
     background: #f0f0f0;
     padding: 70px 0;
+}
+
+footer .positioner {
+    align-items: flex-start;
 }
 
 .footer-about,
@@ -193,6 +191,7 @@ footer {
 
 .footer-about-container {
     display: flex;
+    align-items: center;
 }
 
 .footer-about-container img {
@@ -204,8 +203,16 @@ footer {
     font-weight: 700;
 }
 
+.footer-about-container .copyright span {
+    color: black;
+}
+
 .footer-about-info {
     font-size: 14px;
+}
+
+.footer-about-info address {
+    font-style: normal;
 }
 
 .footer-about a {
