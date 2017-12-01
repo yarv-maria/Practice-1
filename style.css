@@ -126,6 +126,7 @@ a.contacts-phone:hover {
 
 .about-company p {
     margin: 20px 0;
+    text-align: justify;
 }
 
 .about-company h1 {
