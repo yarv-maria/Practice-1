@@ -101,17 +101,24 @@ span,
 }
 
 .header-menu a:hover {
+    transition: .3s;
     color: #00a5ec;
 }
 
 a.contacts-phone:hover {
+    transition: .3s;
     color: #00a5ec;
 }
 
 .contacts-callback span:hover {
+    transition: .3s;
     color: #000000;
 }
 
+.header-logo:hover {
+    transition: .4s;
+    opacity: .5;
+}
 /*--------------------CONTENT-------------------*/
 .about-company {
     flex: 1;
@@ -173,9 +180,11 @@ a.contacts-phone:hover {
 }
 
 .about-company a:hover {
+    transition: .4s;
     color: #0b456d;
     text-decoration: none;
 }
+
 /*--------------------FOOTER-------------------*/
 footer[role = 'contentinfo'] {
     background: #f0f0f0;
@@ -245,13 +254,19 @@ footer .contacts-phone {
 }
 
 .footer-about a:hover {
+    transition: .2s;
     color: #0b456d;
 }
 
 .footer-menu a:hover {
+    transition: .2s;
     color: #00a5ec;
 }
 
+.footer-about-container a:hover {
+    transition: .4s;
+    opacity: .5;
+}
 
 
 
